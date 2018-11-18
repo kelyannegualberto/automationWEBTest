@@ -2,13 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98f4aeb6-4f38-46fd-ac7e-e50af5438caf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/features/specs/backgroud.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/specs/datatable.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/specs/step_definitions/background_steps.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/specs/step_definitions/datatable_steps.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/specs/step_definitions/scenario_outline_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/specs/features_with_capybara/combobox_dropdown_autocomplete.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/specs/features_with_capybara/find_elements.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/specs/features_with_capybara/form.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/specs/features_with_capybara/links_buttons.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/specs/features_with_capybara/radiobox_checkbox.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/specs/features_with_capybara/site_access.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/specs/steps.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/combobox_dropdown_autocomplete_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/find_elements_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/forms_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/links_buttons_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/radiobox_checkbox.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/site_access_steps.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/steps_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/automation-web-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/automation-web-course.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/specs/scenario_outline.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/specs/scenario_outline.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/specs/datatable.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/specs/datatable.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/specs/step_definitions/background_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/background_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/specs/step_definitions/datatable_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/datatable_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/specs/step_definitions/first_scenario_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/first_scenario_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/specs/step_definitions/scenario_outline_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/scenario_outline_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/specs/step_definitions/scenario_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/scenario_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/gemfile.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +35,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/automationWEBTest@backgroud_feature.rcov" NAME="backgroud.feature Coverage Results" MODIFIED="1541784570893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
+    <SUITE FILE_PATH="coverage/automationWEBTest@Scenario__Interact_with_links_and_buttons.rcov" NAME="Scenario: Interact with links and buttons Coverage Results" MODIFIED="1542493843368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
+    <SUITE FILE_PATH="coverage/automationWEBTest@scenario_feature.rcov" NAME="scenario.feature Coverage Results" MODIFIED="1541535837485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
     <SUITE FILE_PATH="coverage/automationWEBTest@Scenario__Make_a_sum_with_success.rcov" NAME="Scenario: Make a sum with success Coverage Results" MODIFIED="1541535822510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
     <SUITE FILE_PATH="coverage/automationWEBTest@Scenario__Make_orange_juice.rcov" NAME="Scenario: Make orange juice Coverage Results" MODIFIED="1541788431462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
-    <SUITE FILE_PATH="coverage/automationWEBTest@backgroud_feature.rcov" NAME="backgroud.feature Coverage Results" MODIFIED="1541784570893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
     <SUITE FILE_PATH="coverage/automationWEBTest@Scenario__Put_oranges_in_bag.rcov" NAME="Scenario: Put oranges in bag Coverage Results" MODIFIED="1541784391717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
     <SUITE FILE_PATH="coverage/automationWEBTest@Scenario__Cut_oranges.rcov" NAME="Scenario: Cut oranges Coverage Results" MODIFIED="1541788369994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
     <SUITE FILE_PATH="coverage/automationWEBTest@Scenario__Make_orange_juice__1_.rcov" NAME="Scenario: Make orange juice (1) Coverage Results" MODIFIED="1541794339335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
-    <SUITE FILE_PATH="coverage/automationWEBTest@scenario_feature.rcov" NAME="scenario.feature Coverage Results" MODIFIED="1541535837485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
+    <SUITE FILE_PATH="coverage/automationWEBTest@find_elements_feature.rcov" NAME="find_elements.feature Coverage Results" MODIFIED="1542484163498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
+    <SUITE FILE_PATH="coverage/automationWEBTest@Scenario__Interact_with_this_elements.rcov" NAME="Scenario: Interact with this elements Coverage Results" MODIFIED="1542509713514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
+    <SUITE FILE_PATH="coverage/automationWEBTest@radiobox_checkbox_feature.rcov" NAME="radiobox_checkbox.feature Coverage Results" MODIFIED="1542510364778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
+    <SUITE FILE_PATH="coverage/automationWEBTest@site_access_feature.rcov" NAME="site_access.feature Coverage Results" MODIFIED="1542480059776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
     <SUITE FILE_PATH="coverage/automationWEBTest@Scenario__Made_a_multiplier_two_numbers.rcov" NAME="Scenario: Made a multiplier two numbers Coverage Results" MODIFIED="1541784321820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
+    <SUITE FILE_PATH="coverage/automationWEBTest@form_feature.rcov" NAME="form.feature Coverage Results" MODIFIED="1542495661734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
     <SUITE FILE_PATH="coverage/automationWEBTest@datatable_feature.rcov" NAME="datatable.feature Coverage Results" MODIFIED="1541792920913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="automation-web-course" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -107,28 +131,70 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+    <session id="-36501444">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="feature" value="1930" />
+          <entry key="gemfile" value="28" />
+          <entry key="rb" value="2215" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Cucumber" value="1930" />
+          <entry key="Ruby" value="2243" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="feature" value="10" />
+          <entry key="gemfile" value="2" />
+          <entry key="rb" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Cucumber" value="10" />
+          <entry key="Ruby" value="22" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/specs/datatable.feature">
+        <entry file="file://$PROJECT_DIR$/features/specs/features_with_capybara/radiobox_checkbox.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/features/specs/step_definitions/datatable_steps.rb">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/radiobox_checkbox.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="49" />
+            <state relative-caret-position="221">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Kelyanne\RubymineProjects\automationWEBTest\features\specs\features_adaptativo</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,8 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gemfile" />
-        <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/specs/first_scenario.feature" />
         <option value="$PROJECT_DIR$/features/specs/step_definitions/first_scenario_steps.rb" />
         <option value="$PROJECT_DIR$/features/specs/scenario.feature" />
@@ -146,8 +210,24 @@
         <option value="$PROJECT_DIR$/features/specs/backgroud.feature" />
         <option value="$PROJECT_DIR$/features/specs/step_definitions/scenario_steps.rb" />
         <option value="$PROJECT_DIR$/features/specs/step_definitions/background_steps.rb" />
-        <option value="$PROJECT_DIR$/features/specs/datatable.feature" />
         <option value="$PROJECT_DIR$/features/specs/step_definitions/datatable_steps.rb" />
+        <option value="$PROJECT_DIR$/features/specs/steps.feature" />
+        <option value="$PROJECT_DIR$/features/specs/step_definitions/steps_steps.rb" />
+        <option value="$PROJECT_DIR$/features/specs/datatable.feature" />
+        <option value="$PROJECT_DIR$/gemfile" />
+        <option value="$PROJECT_DIR$/features/specs/features_with_capybara/site_access.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/site_access_steps.rb" />
+        <option value="$PROJECT_DIR$/features/specs/features_with_capybara/find_elements.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/find_elements_steps.rb" />
+        <option value="$PROJECT_DIR$/features/specs/features_with_capybara/links_buttons.feature" />
+        <option value="$PROJECT_DIR$/features/support/env.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/links_buttons_steps.rb" />
+        <option value="$PROJECT_DIR$/features/specs/features_with_capybara/form.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/forms_steps.rb" />
+        <option value="$PROJECT_DIR$/features/specs/features_with_capybara/combobox_dropdown_autocomplete.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/combobox_dropdown_autocomplete_steps.rb" />
+        <option value="$PROJECT_DIR$/features/specs/features_with_capybara/radiobox_checkbox.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/radiobox_checkbox.rb" />
       </list>
     </option>
   </component>
@@ -158,10 +238,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1816" />
+    <option name="y" value="95" />
+    <option name="width" value="1366" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -171,7 +251,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,31 +265,13 @@
             </path>
             <path>
               <item name="automationWEBTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationWEBTest" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="specs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automationWEBTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationWEBTest" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="specs" type="462c0819:PsiDirectoryNode" />
-              <item name="step_definitions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automationWEBTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automationWEBTest" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automationWEBTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,10 +279,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kelyanne\RubymineProjects\automationWEBTest\features" />
+      <recent name="C:\Users\Kelyanne\RubymineProjects\automationWEBTest\features\specs" />
       <recent name="C:\Users\Windows 10\RubymineProjects\automationWEBTest\features\specs" />
     </key>
   </component>
@@ -237,8 +300,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber.Scenario: Make orange juice (1)">
-    <configuration name="Scenario: Cut oranges" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+  <component name="RunManager" selected="Cucumber.radiobox_checkbox.feature">
+    <configuration name="Scenario: Interact with links and buttons" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="automation-web-course" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -255,9 +318,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/specs/datatable.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/specs/features_with_capybara/links_buttons.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Cut oranges$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Interact with links and buttons$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -270,7 +333,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method v="2" />
     </configuration>
-    <configuration name="Scenario: Make orange juice (1)" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="Scenario: Interact with this elements" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="automation-web-course" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -287,9 +350,9 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/specs/datatable.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/specs/features_with_capybara/combobox_dropdown_autocomplete.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Make orange juice$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Interact with this elements$" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
@@ -302,7 +365,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method v="2" />
     </configuration>
-    <configuration name="Scenario: Make orange juice" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="find_elements.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="automation-web-course" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -319,39 +382,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/specs/datatable.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="^Make orange juice$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method v="2" />
-    </configuration>
-    <configuration name="backgroud.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
-      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
-      <module name="automation-web-course" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/specs/backgroud.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/specs/features_with_capybara/find_elements.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
@@ -366,7 +397,7 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method v="2" />
     </configuration>
-    <configuration name="datatable.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+    <configuration name="form.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="automation-web-course" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -383,7 +414,39 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/specs/datatable.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/specs/features_with_capybara/form.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
+      <method v="2" />
+    </configuration>
+    <configuration name="radiobox_checkbox.feature" type="CucumberRunConfigurationType" factoryName="Cucumber" temporary="true">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="automation-web-course" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/features/specs/features_with_capybara/radiobox_checkbox.feature" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
@@ -399,19 +462,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Cucumber.backgroud.feature" />
-      <item itemvalue="Cucumber.datatable.feature" />
-      <item itemvalue="Cucumber.Scenario: Cut oranges" />
-      <item itemvalue="Cucumber.Scenario: Make orange juice" />
-      <item itemvalue="Cucumber.Scenario: Make orange juice (1)" />
+      <item itemvalue="Cucumber.find_elements.feature" />
+      <item itemvalue="Cucumber.Scenario: Interact with links and buttons" />
+      <item itemvalue="Cucumber.form.feature" />
+      <item itemvalue="Cucumber.Scenario: Interact with this elements" />
+      <item itemvalue="Cucumber.radiobox_checkbox.feature" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber.Scenario: Make orange juice (1)" />
-        <item itemvalue="Cucumber.datatable.feature" />
-        <item itemvalue="Cucumber.Scenario: Make orange juice" />
-        <item itemvalue="Cucumber.Scenario: Cut oranges" />
-        <item itemvalue="Cucumber.backgroud.feature" />
+        <item itemvalue="Cucumber.radiobox_checkbox.feature" />
+        <item itemvalue="Cucumber.Scenario: Interact with this elements" />
+        <item itemvalue="Cucumber.form.feature" />
+        <item itemvalue="Cucumber.Scenario: Interact with links and buttons" />
+        <item itemvalue="Cucumber.find_elements.feature" />
       </list>
     </recent_temporary>
   </component>
@@ -432,53 +495,54 @@
       <workItem from="1541612763960" duration="2002000" />
       <workItem from="1541703397967" duration="2510000" />
       <workItem from="1541783595949" duration="9095000" />
+      <workItem from="1542466664399" duration="20614000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="datatable_feature - 2018.11.09 at 16h 57m 04s.xml">
-      <configuration name="datatable.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="radiobox_checkbox_feature - 2018.11.17 at 23h 55m 48s.xml">
+      <configuration name="radiobox_checkbox.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="datatable_feature - 2018.11.09 at 17h 47m 33s.xml">
-      <configuration name="datatable.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="radiobox_checkbox_feature - 2018.11.17 at 23h 56m 31s.xml">
+      <configuration name="radiobox_checkbox.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="datatable_feature - 2018.11.09 at 17h 48m 42s.xml">
-      <configuration name="datatable.feature" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="radiobox_checkbox_feature - 2018.11.17 at 23h 58m 44s.xml">
+      <configuration name="radiobox_checkbox.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_orange_juice_(1) - 2018.11.09 at 18h 04m 28s.xml">
-      <configuration name="Scenario: Make orange juice (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="radiobox_checkbox_feature - 2018.11.17 at 23h 59m 32s.xml">
+      <configuration name="radiobox_checkbox.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_orange_juice_(1) - 2018.11.09 at 18h 05m 32s.xml">
-      <configuration name="Scenario: Make orange juice (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="radiobox_checkbox_feature - 2018.11.18 at 00h 01m 08s.xml">
+      <configuration name="radiobox_checkbox.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_orange_juice_(1) - 2018.11.09 at 18h 07m 51s.xml">
-      <configuration name="Scenario: Make orange juice (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="radiobox_checkbox_feature - 2018.11.18 at 00h 01m 44s.xml">
+      <configuration name="radiobox_checkbox.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_orange_juice_(1) - 2018.11.09 at 18h 08m 52s.xml">
-      <configuration name="Scenario: Make orange juice (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="radiobox_checkbox_feature - 2018.11.18 at 00h 02m 14s.xml">
+      <configuration name="radiobox_checkbox.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_orange_juice_(1) - 2018.11.09 at 18h 10m 56s.xml">
-      <configuration name="Scenario: Make orange juice (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="radiobox_checkbox_feature - 2018.11.18 at 00h 03m 05s.xml">
+      <configuration name="radiobox_checkbox.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_orange_juice_(1) - 2018.11.09 at 18h 11m 20s.xml">
-      <configuration name="Scenario: Make orange juice (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="radiobox_checkbox_feature - 2018.11.18 at 00h 05m 39s.xml">
+      <configuration name="radiobox_checkbox.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Make_orange_juice_(1) - 2018.11.09 at 18h 12m 20s.xml">
-      <configuration name="Scenario: Make orange juice (1)" configurationId="CucumberRunConfigurationType" />
+    <history-entry file="radiobox_checkbox_feature - 2018.11.18 at 00h 06m 19s.xml">
+      <configuration name="radiobox_checkbox.feature" configurationId="CucumberRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26435000" />
+    <option name="totallyTimeSpent" value="47049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17700455" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2881997" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3809524" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -486,7 +550,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" visible="true" weight="0.5599343" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924356" weight="0.39901477" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.32840723" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -501,23 +565,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/specs/scenario.feature">
@@ -527,7 +577,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/specs/step_definitions/first_scenario_steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/first_scenario_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
@@ -541,28 +591,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/specs/backgroud.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/specs/step_definitions/background_steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/background_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/specs/step_definitions/scenario_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/specs/step_definitions/scenario_outline_steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/scenario_outline_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
@@ -576,19 +612,160 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/scenario_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/specs/datatable.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/specs/step_definitions/datatable_steps.rb">
+    <entry file="file://$PROJECT_DIR$/features/specs/steps.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="49" />
+        <state relative-caret-position="51">
+          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="43" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/datatable_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/specs/backgroud.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/steps_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/specs/features_with_capybara/site_access.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/site_access_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/specs/features_with_capybara/find_elements.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/find_elements_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/support/env.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/links_buttons_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/specs/features_with_capybara/form.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/specs/features_with_capybara/links_buttons.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/forms_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/specs/features_with_capybara/combobox_dropdown_autocomplete.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/combobox_dropdown_autocomplete_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/specs/features_with_capybara/radiobox_checkbox.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/step_definitions_capybara/radiobox_checkbox.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

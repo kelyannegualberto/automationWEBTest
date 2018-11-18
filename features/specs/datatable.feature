@@ -1,5 +1,7 @@
+@datatable
 Feature: Work with datatables
 
+  @cut_orange
   Scenario: Cut oranges
     Given I have some oranges
       |orange|10|
